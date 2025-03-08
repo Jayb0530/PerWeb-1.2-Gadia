@@ -1,0 +1,134 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechHazard Reviews</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: lightskyblue;
+      color: #333;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-top: 30px;
+      color: #333;
+    }
+
+    .review-section {
+      max-width: 1200px;
+      margin: 30px auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+    }
+
+    .review-card {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+    }
+
+    .review-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    }
+
+    .review-card h3 {
+      font-size: 1.6rem;
+      color: #333;
+      margin: 10px 0;
+    }
+
+    .review-card p {
+      font-size: 1.1rem;
+      color: #555;
+      margin: 10px 0;
+      line-height: 1.5;
+    }
+
+    .rating {
+      margin: 10px 0;
+      font-size: 1.4rem;
+      color: #FFD700; /* Gold color for star rating */
+    }
+
+    .rating i {
+      margin-right: 5px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .review-section {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .review-section {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a href="category.html">Category</a>
+    <a href="contact us.html">Contact us</a>
+    <a>Review</a>
+ </nav>
+
+  <h2>User Reviews for TechHazard</h2>
+
+  <div class="review-section">
+
+    <div class="review-card">
+      <h3>Yuna</h3>
+      <p>"This software is revolutionary! It has completely changed the way I work. The features are intuitive and the support team is fantastic!"</p>
+      <div class="rating">
+        <i>★</i><i>★</i><i>★</i><i>★</i><i>★</i>
+      </div>
+    </div>
+
+
+    <div class="review-card">
+      <h3>Jane</h3>
+      <p>"A bit challenging to get started with, but once I got the hang of it, the software was a game-changer. Highly recommend!"</p>
+      <div class="rating">
+        <i>★</i><i>★</i><i>★</i><i>★</i><i>☆</i>
+      </div>
+    </div>
+
+    <div class="review-card">
+      <h3>David</h3>
+      <p>"Solid software, but it could use more customization options. Still, it's a great tool for tech professionals."</p>
+      <div class="rating">
+        <i>★</i><i>★</i><i>★</i><i>★</i><i>☆</i>
+      </div>
+    </div>
+
+ 
+    <div class="review-card">
+      <h3>Elli</h3>
+      <p>"Incredible support team and fantastic features that are consistently updated. I love how it integrates with other tech stacks."</p>
+      <div class="rating">
+        <i>★</i><i>★</i><i>★</i><i>★</i><i>☆</i>
+      </div>
+    </div>
+    
+  </div>
+
+</body>
+</html>

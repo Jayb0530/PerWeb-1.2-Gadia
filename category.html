@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tech Hazard</title>
+	<style>
+   
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #002b45;
+      color: white;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+  
+    .container {
+      width: 80%;
+      margin: 2rem auto;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .category {
+      background: #1e3a5f;
+      color: white;
+      border-radius: 8px;
+      padding: 1.5rem;
+      width: 23%;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+      text-align: center;
+    }
+
+    .category:hover {
+      transform: translateY(-10px);
+    }
+
+    .category h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .category p {
+      font-size: 1rem;
+    }
+
+    /* Responsive Styles */
+    @media screen and (max-width: 768px) {
+      .category {
+        width: 48%;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      .category {
+        width: 100%;
+      }
+    }
+
+  </style>
+</head>
+<body>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="news.html">News</a>
+    <a>Category</a>
+    <a href="contact us.html">Contact us</a>
+    <a href="review.html">Review</a>
+ </nav>
+  <header>
+    <h1>Category</h1>
+    <p>Explore the Latest Trends in System Software</p>
+  </header>
+
+  <div class="container">
+    <div class="category">
+      <h2>Programming Language Translator</h2>
+      <p>A computer program that converts the programming instructions written in human convenient form into machine language codes that the computers understand and process.</p>
+    </div>
+
+    <div class="category">
+      <h2>Operating System</h2>
+      <p>a software program that manages a computer's hardware and software resources. It allows users to interact with their computer by running programs, storing files, and connecting to networks. </p>
+    </div>
+
+    <div class="category">
+      <h2>Productivity Software</h2>
+      <p>A program or application that helps people create and produce content more efficiently. It can include tools for word processing, spreadsheets, presentations, databases, and more. </p>
+    </div>
+  </div>
+</style>
+</head>
+</body>
+</html>
